@@ -32,7 +32,7 @@ public class BeerPagedList extends PageImpl<BeerDto> {
     public BeerPagedList(@JsonProperty("content") List<BeerDto> content,
                          @JsonProperty("number") int number,
                          @JsonProperty("size") int size,
-                         @JsonProperty("totalElements") long totalElements,
+                         @JsonProperty("totalElements") Long totalElements,
                          @JsonProperty("pageable") JsonNode pageable,
                          @JsonProperty("last") boolean last,
                          @JsonProperty("pageAble") long pageAble,
